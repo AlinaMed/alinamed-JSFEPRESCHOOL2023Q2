@@ -1,3 +1,28 @@
+.navigation
+{
+    background-color:rgba(12, 12, 14, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+     
+}
+
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+
 .welcom-block{
     width: 1440px;
     height: 600px;

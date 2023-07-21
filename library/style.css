@@ -1,0 +1,6 @@
+.welcom-block{
+    width: 1440px;
+    height: 600px;
+    background-image: url('img/welcombackcover.jpg');
+    background-size: cover;
+}

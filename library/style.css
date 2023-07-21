@@ -4,3 +4,7 @@
     background-image: url('img/welcombackcover.jpg');
     background-size: cover;
 }
+.map{
+    width: 696px;
+    height: 414px;
+}

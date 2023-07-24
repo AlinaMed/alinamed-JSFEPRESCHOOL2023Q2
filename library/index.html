@@ -8,24 +8,27 @@
 </head>
 <body>
     <header>
-            <nav class="navigation">
-                <p>Brooklyn Public Library</p>
-                <ul class="navigation-list">
-                    <li><a class="navigation-link" href="#about">About</a></li>
-                    <li><a class="navigation-link" href="#favorites">Favorites</a></li>
-                    <li><a class="navigation-link" href="#coffee_shop">Coffee shop</a></li>
-                    <li"><a class="navigation-link" href="#contacts">Contacts</a></li>
-                    <li"><a class="navigation-link" href="#library_card">Library Card</a></li>
+        <div class="wrapper">
+        <p class="logo">Brooklyn Public Library</p>
+        <nav class="header_navigation">
+                
+            <ul class="navigation">
+                <li><a class="navigation-link" href="#about">About</a></li>
+                <li><a class="navigation-link" href="#favorites">Favorites</a></li>
+                <li><a class="navigation-link" href="#coffee_shop">Coffee shop</a></li>
+                <li"><a class="navigation-link" href="#contacts">Contacts</a></li>
+                <li"><a class="navigation-link" href="#library_card">Library Card</a></li>
                
 
                 <a href=""><img class="" src="icon/icon_profile.svg" alt="profile"></a>
             </ul>
             </nav>
+        </div>
     </header>
 
     <main>
         <div class="main-container">      
-        <section>
+        <section class="welcome">
             <p>
                 Welcome 
                 to the Brooklyn Library
@@ -41,18 +44,21 @@
         </section>
 
         <section id="favorites">
-            <h2>Favorites</h2>
-            <p>Pick favorites of season</p>
-
-            <div class="books-card">
-             <h4>Staff Picks</h4>
-             <h5>The Book Eaters</h5>  
-             <p>By Sunyi Dean</p> 
-             <p>An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater
-                son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance,
-                and a strong, complex protagonist. Not for the faint of heart.</p>
-            <button type="button">Buy</button>  
-            <img src="img/bookscover/10cccd6aa454e4250b40b38dda676c38.jpg" alt="book">
+            <div class="wrapper">
+                <h2>Favorites</h2>
+                <p>Pick favorites of season</p>
+                <div class="layout-2-column"> <!--разбивка на две колонки-->
+                    <div class="books-card">
+                    <h4>Staff Picks</h4>
+                    <h5>The Book Eaters</h5>  
+                    <p>By Sunyi Dean</p> 
+                    <p>An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater
+                        son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance,
+                        and a strong, complex protagonist. Not for the faint of heart.</p>
+                    <button type="button">Buy</button>  
+                    <img src="img/bookscover/10cccd6aa454e4250b40b38dda676c38.jpg" alt="book">
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -85,6 +91,7 @@
 
         <section id="contacts">
         <h2>Our Contacts</h2>
+        <div class="layout-2-column"> 
         <div class="contactstext">
         <p>For all Library inquiries:</p>
         <p>Please call (617) 730-2370</p>
@@ -96,15 +103,36 @@
         <div class="map">
         <img class="map" src="img/map.png" alt="map">
         </div>
+        </div>
         </section>
 
-        <section id="library_card">
+        <section id="library_card" class="digital-library-cards">
+            <div class="wrapper"> 
+            <h2>Digital Library Cards</h2>
+            <div class="layout-2-column"> <!--разбивка на две колонки-->
+              
+                <div class="digital-library-form">
+                    <p>Find your Library card</p>
+                    <form action method="post">
+                        <p>Brooklyn Public Library</p>
+                        <input type="text" name="readers-name" placeholder="Reader's name">
+                        <input type="number" name="card-number" placeholder="Card number">
+                        <div class="digital-library_butter">
+                            <button type="submit" class="button_border">Check the card</button>
+                        </div>
+                    </form>
+                    
+                </div>
 
-        <h2>Digital Library Cards</h2>
-        <div class="form">
+                <div class="digital-library-cards_content">
+                    <p>Get a reader card</p>
+                    <p>You will be able to see a reader card after logging into account or you can register a new account</p>
+                    <button class="button_border">Sign Up</button>
+                    <button class="button_border">Log in</button>
+                </div>
+            </div>
       
-
-        </div>
+            </div>
         </section>
     </div>
     </main>

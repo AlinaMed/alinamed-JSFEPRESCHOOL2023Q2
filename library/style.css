@@ -1,11 +1,11 @@
-.navigation
+.header_navigation
 {
     background-color:rgba(12, 12, 14, 1);
     color: rgba(255, 255, 255, 1);
 }
 
 
-.navigation-list {
+.navigation{
     display: flex;
     justify-content: flex-end;
     align-items: center;

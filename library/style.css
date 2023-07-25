@@ -49,6 +49,12 @@ h1, h2, h3{
     background-image: url('img/welcombackcover.jpg');
     background-size: cover;
 }
+
+.main-container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .map{
     width: 696px;
     height: 414px;

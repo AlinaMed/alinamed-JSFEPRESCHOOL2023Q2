@@ -2,38 +2,81 @@ html{
 
 }
 
-body{
-   
-    font-family: 'Inter', sans-serif;
-
-   
-    
+body{  
+font-family: 'Inter', sans-serif;   
 }
+
+.wrapper{
+max-width: 1440px;
+margin: auto;
+}
+
+.layout-2-column{
+    display: flex;
+    justify-content:space-between;
+}
+
 h1, h2, h3{
     font-family: 'Forum', cursive;
 }
 
-.header_navigation
-{
+
+
+.h1{
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.6px;
+}
+
+h2, h3{
+    color: #0C0C0E;
+font-size: 40px;
+font-style: normal;
+letter-spacing: 2px;
+text-transform: capitalize;
+
+}
+
+
+header{
+    padding: 20px 0 20px 0;
+    
     background-color:rgba(12, 12, 14, 1);
     color: rgba(255, 255, 255, 1);
+
+}
+
+
+.header__wrapper{
+display: flex;
+justify-content:space-between;
+}
+
+.wrapper__navigation{
+    display: flex; 
+}
+    
+.header_navigation
+{
+    
 }
 
 
 .navigation{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     list-style: none;
      
 }
 
 .navigation-link {
-    padding: 0 20px;
-    line-height: 50px;
+    padding: 0 30px;
+
     transition: .3s;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-style: normal;
+    line-height: 50px; 
     
 }
 
@@ -54,8 +97,15 @@ h1, h2, h3{
 
 .main-container{
     width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+ 
+}
+
+.books-card{
+    width: 550px;
+    height: 555px;
+    border: 1px solid #000;
+
 }
 .map{
     width: 696px;

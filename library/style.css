@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html{
 
 }
@@ -37,6 +40,34 @@ text-transform: capitalize;
 text-align: center;
 
 }
+
+.button__active{
+border-radius: 2px;
+border: 1px solid #0C0C0E;
+color: #0C0C0E;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+}
+
+.button__active:hover{
+    border-radius: 2px;
+    border: 1px solid #BB945F;
+    background: #BB945F;
+    color: #0C0C0E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    }
+
 
 
 header{
@@ -124,8 +155,26 @@ justify-content:space-between;
     width: 550px;
     height: 555px;
     border: 1px solid #000;
-
+    
 }
+
+
+.books-card__description{
+    max-width: 355px;
+    margin: 20px 15px;
+}
+
+
+
+
+
+.books-card__imeg{
+    width: 200px;
+    height: 300px;
+  
+}
+
+
 .map{
     width: 696px;
     height: 414px;

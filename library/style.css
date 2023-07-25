@@ -35,6 +35,13 @@ h1, h2, h3{
     
 }
 
+.icon_profile{
+    background-image: url('icon/icon_profile.svg');
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
 
 .welcom-block{
     width: 1440px;

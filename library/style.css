@@ -151,10 +151,37 @@ justify-content:space-between;
  
 }
 
+.slider {
+    display: flex;
+
+    
+}
+
+.slider__imeg{
+    width: 100px;
+    height: 255px
+
+}
+
+.navigation1
+{
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+}
+
+.radio-button{
+    width: 10px;
+    height: 10px;
+    background-color: #000;   
+}
+
+
 .books-card{
     width: 550px;
     height: 555px;
     border: 1px solid #000;
+   
     
 }
 
@@ -169,6 +196,9 @@ justify-content:space-between;
 
 
 .books-card__imeg{
+    position: absolute;
+    
+    scale: 500px -500px;
     width: 200px;
     height: 300px;
   
@@ -179,6 +209,50 @@ justify-content:space-between;
     width: 696px;
     height: 414px;
 }
+
+.digital-library__form {
+    width: 600px;
+    height: 386px;
+    border: 1px solid #000; 
+}
+ .form{
+    width: 560px;
+    height: 272px;
+    background: #BB945F;
+    margin: 20px;
+    padding: 20px;
+ }
+
+ .form__text{
+    color: #000;
+font-family: Forum;
+font-size: 30px;
+font-style: normal;
+letter-spacing: 0.6px;
+ }
+
+ .form__input{
+    width: 520px;
+    height: 66px;
+    border-radius: 10px;
+    background: #FFF;
+
+    color: #8E8E8E;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.6px;
+ }
+
+ .form__button
+ {
+    width: 162px;
+    height: 24px;
+
+
+
+ }
+
 
 footer
 {

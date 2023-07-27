@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>library</title>
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -35,7 +36,7 @@
         <section class="welcome">
             <div class="wrapper welcom-block">
                 <div class="welcom-text">
-                    <p>Welcome to the Brooklyn Library</p>
+                    <p class="">Welcome to the Brooklyn Library</p>
                 </div>
           
         </div>
@@ -43,17 +44,19 @@
 
         <section id="about">
         <h2>About</h2>
-        <p>The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
+        <hr>
+        <p class="section__description">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
         <div class="slider">
             <div class="slider__imeges">
+                <img class="slider__imeg" src="img/slider/slide3.jpg" alt="slide">
                 <img class="slider__imeg" src="img/slider/slide1.jpg" alt="slide">
                 <img class="slider__imeg" src="img/slider/slide2.jpg" alt="slide">
-            <img class="slider__imeg" src="img/slider/slide3.jpg" alt="slide">
+           
             </div>
             <div class="slider__navigation">
-            <span class="navigation1"></span>
-            <span class="navigation1"></span>
-            <span class="navigation1"></span>
+                <div class="navigation1"></div>
+                <div class="navigation1"></div>
+                <div class="navigation1"></div>
             </div>     
             
         </div>
@@ -62,9 +65,13 @@
         <section id="favorites">
             <div class="wrapper">
                 <h2>Favorites</h2>
+                <hr>
                 <p>Pick favorites of season</p>
                 <div class="radio-button">
-
+                <input type="radio">
+                <input type="radio"> 
+                <input type="radio">    
+                <input type="radio">             
                 </div>
                 <div class="layout-2-column"> 
                     <div class="books-card">
@@ -76,11 +83,12 @@
                                 son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance,
                                 and a strong, complex protagonist. Not for the faint of heart.</p>
                             <button class="button__active" type="button">Buy</button> 
-                        
+                      
                         </div>
               
-                    <img class="books-card__imeg" src="img/bookscover/10cccd6aa454e4250b40b38dda676c38.jpg" alt="book">
+                      <img class="books-card__imeg" src="img/bookscover/10cccd6aa454e4250b40b38dda676c38.jpg" alt="book">
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -88,7 +96,8 @@
         <section id="coffee_shop">
             <div class="wrapper">
                 <h2>Coffee shop</h2>
-                <p>In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
+                <hr>
+                <p class="section__description">In our library, we have of cozy coffee shop, welcoming in customers with frothy cappuccinos and friendly conversation. 
                     you can get a favorite book and read in coffee shop. Our barista to cook you best coffee, and also you can try desserts from bakery.</p>
                 <div class="layout-2-column">
                     <div class="coffe-shop__drinks-card">
@@ -120,12 +129,13 @@
 
         <section id="contacts">
         <h2>Our Contacts</h2>
+        <hr>
         <div class="layout-2-column"> 
         <div class="contactstext">
         <p>For all Library inquiries:</p>
         <p>Please call <a href="tel:+79001111111">(617) 730-2370</a></p>
-        <p>For TTY service, please call <a href="">(617) 730-2370</a></p>
-        <p>Putterham Library: <a href="">(617) 730-2385</a></p>
+        <p>For TTY service, please call <a href="tel:+79001111111">(617) 730-2370</a></p>
+        <p>Putterham Library: <a href="tel:+79001111111">(617) 730-2385</a></p>
         <p>Senior Staff</p>
         <p>Library Director: <a href="">Amanda Hirst</a></p>
         </div>
@@ -138,6 +148,7 @@
         <section id="library_card" class="digital-library-cards">
             <div class="wrapper"> 
             <h2>Digital Library Cards</h2>
+            <hr>
             <div class="layout-2-column"> <!--разбивка на две колонки-->
                 
                 <div class="digital-library__form">
@@ -186,7 +197,7 @@
 
             </div>
         </div>
-
+<hr class="footer__line">
         <div class="footer_about-project">
             <ul>
                 <li>2023</li>

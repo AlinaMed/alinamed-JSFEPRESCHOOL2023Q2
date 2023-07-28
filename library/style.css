@@ -14,9 +14,6 @@ width: 1440px;
 margin: auto;
 }
 
-
-
-
 .layout-2-column{
     display: flex;
     justify-content:space-between;
@@ -32,16 +29,15 @@ h1, h2, h3{
     font-family: 'Forum';
 }
 
-
-
-.h1{
+h1{
     font-size: 30px;
     font-style:normal;
     letter-spacing: 0.6px;
-    color: #FFF;
+    color: #FFF;  
+}
+h1:hover{
+    color: #BB945F;
   
-
-    
 }
 
 h2{
@@ -55,7 +51,20 @@ font-style: normal;
 letter-spacing: 2px;
 text-transform: capitalize;
 text-align: center;
+}
 
+
+h3{
+
+color: #BB945F;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+letter-spacing: 2px;
+text-transform: capitalize;
+text-align: left;
 }
 
 .section__description{
@@ -67,7 +76,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 40px; /* 200% */
 }
-
 
 .button__active{
 border-radius: 2px;
@@ -98,12 +106,12 @@ letter-spacing: 1px;
 
 
 
+
+
 header{
-    
-    
+      
     background-color:rgba(12, 12, 14, 1);
     color: rgba(255, 255, 255, 1);
-
 }
 
 
@@ -146,6 +154,15 @@ padding: 20px 20px;
     
 }
 
+.navigation-link:hover {
+    
+    color: #BB945F;
+    text-decoration:underline;
+    
+    
+}
+
+
 .icon_profile{
     background-image: url('icon/icon_profile.svg');
     width: 28px;
@@ -154,6 +171,7 @@ padding: 20px 20px;
     margin-left: 40px;
     margin-top: 31px;
 }
+
 
 
 .welcom-block{
@@ -274,6 +292,7 @@ line-height: normal;
 .radio-button{
 
     display: flex;
+    margin-bottom: 40px;
  
 }
 
@@ -288,6 +307,8 @@ line-height: normal;
     padding-top: 15px;
     padding-left: 20px;
     padding-bottom: 15px;
+
+    margin-bottom: 40px;
     
     
 }
@@ -381,6 +402,70 @@ margin: 0px;
     left: 40px;
     
 }
+
+.coffee_shop{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.coffe-shop__description{
+    
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+   
+}
+
+.coffe-shop__product{
+    width: 438;
+  display: flex;
+
+  
+  justify-content: center;
+align-items: center;
+}
+
+
+.product__name{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+ margin-right: 40px;
+
+width: 199px;
+}
+
+.coffe-shop__line{
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+   
+    
+}
+
+.product__price{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+
 
 
 .map{

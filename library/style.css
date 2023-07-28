@@ -284,14 +284,39 @@ line-height: normal;
     border: 1px solid #000;
     
     display: flex;
+
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 15px;
     
     
 }
 
+.book-card__heading{
+color: #000;
+font-family: Forum;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+margin: 0px;
+
+}
+
+.book-card__line{
+width: 60px;
+height: 1px;
+background: #BB945F;
+margin: 0px;
+}
+
 
 .books-card__description{
-   width: 355px;
-    margin: 20px 15px;
+   height: 320px;
+    width: 355px;
+    
 
 
     color: #000;
@@ -304,8 +329,45 @@ letter-spacing: 2px;
 text-transform: capitalize;
 }
 
+.book-name{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 266.667% */
+letter-spacing: 2px;
+text-transform: uppercase;
+margin: 0px;
+margin-top: 20px;
+
+}
 
 
+.book-author{
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: capitalize;
+margin: 0px;
+
+}
+
+
+.about-book-text{
+    margin: 0px;
+    padding: 0px;
+}
+
+.book-button{
+    width: 75px;
+    height: 30px;
+    margin-bottom: 15px;
+}
 
 
 .books-card__imeg{

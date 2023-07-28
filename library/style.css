@@ -81,6 +81,7 @@ line-height: 40px; /* 200% */
 border-radius: 2px;
 border: 1px solid #0C0C0E;
 color: #0C0C0E;
+background-color: #FFF;
 text-align: center;
 font-family: Inter;
 font-size: 10px;
@@ -498,6 +499,7 @@ text-transform: capitalize;
 }
 
 .contactstext__phone{
+    color: #000;
     text-decoration: none;
 }
 
@@ -530,16 +532,28 @@ text-decoration: none;
     width: 696px;
     height: 414px;
 }
-
+/*------ */
 
 .digital-library-cards{
     padding: 20px 20px 40px 20px;
 }
 
+.library-container__header{
+    color: #000;
+    text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.6px;
+}
+
 .digital-library__form {
     width: 600px;
     height: 386px;
-    border: 1px solid #000; 
+    border: 3px solid #BB945F;
+    box-shadow: 5px 5px 15px rgba(122,122,122,0.5);
 }
  .form{
     width: 560px;
@@ -547,6 +561,9 @@ text-decoration: none;
     background: #BB945F;
     margin: 20px;
     padding: 20px;
+  
+  
+  
  }
 
  .form__text{
@@ -555,6 +572,8 @@ font-family: Forum;
 font-size: 30px;
 font-style: normal;
 letter-spacing: 0.6px;
+margin-top: 0px;
+margin-bottom: 20px;
  }
 
  .form__input{
@@ -568,18 +587,58 @@ letter-spacing: 0.6px;
     font-size: 30px;
     font-style: normal;
     letter-spacing: 0.6px;
+
+    margin-bottom: 25px;
+
+    padding: 8px;
+    padding-left: 20px;
  }
 
  .form__button
  {
-    width: 162px;
-    height: 24px;
+    width: 242px;
+    height: 44px;
 
+    padding: 10px 40px;
+    position: relative;
+    left: 179px;
+ }
 
+ .digital-library-cards_content{
+    text-align: right;
 
+ }
+ .library-cards_content-head{
+    color: #000;
+    
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+ }
+
+ .library-cards_content-text{
+    width: 456px;
+    color: #000;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+ }
+
+ .library-cards_content-button{
+    width: 75px;
+    height: 30px;
+    margin-left: 20px;
  }
 
 
+/*------ */
 footer
 {
     color: rgba(255, 255, 255, 1);

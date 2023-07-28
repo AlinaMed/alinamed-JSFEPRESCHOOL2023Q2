@@ -220,26 +220,28 @@
             <div class="wrapper"> 
             <h2>Digital Library Cards</h2>
             <hr>
-            <div class="layout-2-column"> <!--разбивка на две колонки-->
-                
-                <div class="digital-library__form">
-                    <p>Find your Library card</p>
-                    <form action method="post" class="form">
-                        <p class="form__text">Brooklyn Public Library</p>
-                        <input type="text" name="readers-name" placeholder="Reader's name" class="form__input">
-                        <input type="number" name="card-number" placeholder="Card number" class="form__input">
+            <div class="layout-2-column"> 
+                <div class="library-container">
+                    <p class="library-container__header">Find your Library card</p>   
+                    <div class="digital-library__form">
+                        
+                        <form action method="post" class="form">
+                            <p class="form__text">Brooklyn Public Library</p>
+                            <input type="text" name="readers-name" placeholder="Reader's name" class="form__input">
+                            <input type="number" name="card-number" placeholder="Card number" class="form__input">
+                            
+                        </form>
                         <div class="digital-library_button">
                             <button type="submit" class="button__active form__button">Check the card</button>
                         </div>
-                    </form>
-                    
+                        
+                    </div>
                 </div>
-
                 <div class="digital-library-cards_content">
-                    <p>Get a reader card</p>
-                    <p>You will be able to see a reader card after logging into account or you can register a new account</p>
-                    <button class="button__active">Sign Up</button>
-                    <button class="button__active">Log in</button>
+                    <p class="library-cards_content-head">Get a reader card</p>
+                    <p class="library-cards_content-text">You will be able to see a reader card after logging into account or you can register a new account</p>
+                    <button class="button__active library-cards_content-button">Sign Up</button>
+                    <button class="button__active library-cards_content-button">Log in</button>
                 </div>
             </div>
       

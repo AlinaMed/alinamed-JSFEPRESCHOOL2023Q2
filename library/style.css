@@ -448,8 +448,9 @@ width: 199px;
 
 .coffe-shop__line{
     width: 100px;
-    height: 1px;
+    height: 2px;
     background: #BB945F;
+
    
     
 }
@@ -466,11 +467,73 @@ width: 199px;
     margin-left: 40px;
 }
 
+.contacts{
+    padding: 20px 20px 40px 20px;
+    }
+
+
+   
+.contactstext{
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+
+    }
+
+
+.contactstext__header{
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 200% */
+letter-spacing: 2px;
+text-transform: capitalize;
+}
+
+.contactstext__phone{
+    text-decoration: none;
+}
+
+.contactstext__phone:hover{
+    color: #BB945F;
+    text-decoration: underline;
+}
+
+.mail-link{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 2px;
+text-transform: capitalize;
+text-decoration: none;
+}
+
+
+
+.mail-link:hover{
+   color: #BB945F;
+   text-decoration: underline;
+}
 
 
 .map{
     width: 696px;
     height: 414px;
+}
+
+
+.digital-library-cards{
+    padding: 20px 20px 40px 20px;
 }
 
 .digital-library__form {

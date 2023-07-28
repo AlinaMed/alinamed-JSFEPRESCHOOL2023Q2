@@ -53,27 +53,46 @@
                 <img class="slider__imeg" src="img/slider/slide2.jpg" alt="slide">
            
             </div>
-            <div class="slider__navigation">
-                <div class="navigation1"></div>
-                <div class="navigation1"></div>
-                <div class="navigation1"></div>
-            </div>     
+               
             
         </div>
+         <div class="slider__navigation">
+               <div class="slider__navigation_container"> <div class="navigation__active"></div></div>
+               <div class="slider__navigation_container"><div class="navigation__active"></div></div>
+               <div class="slider__navigation_container"><div class="navigation__active"></div></div>
+            </div> 
+
         </section>
 
         <section id="favorites">
             <div class="wrapper">
                 <h2>Favorites</h2>
                 <hr>
-                <p>Pick favorites of season</p>
+                <p class="favorites__text">Pick favorites of season</p>
                 <div class="radio-button">
-                <input type="radio">
-                <input type="radio"> 
-                <input type="radio">    
-                <input type="radio">             
+                <p class="season__choise"><input name="season" type="radio" value="active" class="">Winter</p>
+                <p class="season"><input name="season" type="radio" value="deactive">Spring</p>
+                <p class="season"><input name="season" type="radio" value="deactive">Summer</p>
+                <p class="season"><input name="season" type="radio" value="deactive">Autumn</p>
+                             
                 </div>
                 <div class="layout-2-column"> 
+                    <div class="books-card">
+                        <div class="books-card__description">
+                            <h4>Staff Picks</h4>
+                            <h5>The Book Eaters</h5>  
+                            <p>By Sunyi Dean</p> 
+                            <p>An unusual sci-fi story about a book eater woman who tries desperately to save her dangerous mind-eater
+                                son from tradition and certain death. Complete with dysfunctional family values, light Sapphic romance,
+                                and a strong, complex protagonist. Not for the faint of heart.</p>
+                            <button class="button__active" type="button">Buy</button> 
+                      
+                        </div>
+              
+                      <img class="books-card__imeg" src="img/bookscover/10cccd6aa454e4250b40b38dda676c38.jpg" alt="book">
+                    </div>
+
+
                     <div class="books-card">
                         <div class="books-card__description">
                             <h4>Staff Picks</h4>

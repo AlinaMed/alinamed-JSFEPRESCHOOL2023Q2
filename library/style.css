@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html{
-
+    scroll-behavior: smooth;
 }
 
 body{  
@@ -192,13 +192,16 @@ padding: 20px 20px;
 }
 
 .slider {
- 
-
+  display: flex;
+    justify-content:center;
+    
     
 }
 
 .slider__imeg{
-    width: 450px;
+   
+
+width: 450px;
 height: 560px;
 
 }
@@ -206,9 +209,20 @@ height: 560px;
 .slider__navigation{
     display: flex;
     justify-content:center;
+
+    margin-top: 40px;
+
 }
 
-.navigation1{
+.slider__navigation_container{
+    width: 26px;
+    height: 26px;
+}
+
+
+
+
+.navigation__active{
     width: 16px;
     height: 16px;
     background: #0C0C0E;
@@ -216,10 +230,51 @@ height: 560px;
 
     display: flex;
     }
+    
+    .navigation__active:hover{
+        width: 16px;
+        height: 16px;
+        background: #BB945F;
+        border-radius: 50px;
+    
+        display: flex;
+    }
+
+
+
+.favorites__text{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.season{
+color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.season__choise{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
 
 .radio-button{
 
     display: flex;
+ 
 }
 
 

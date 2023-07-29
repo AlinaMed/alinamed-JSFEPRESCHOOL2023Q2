@@ -6,7 +6,17 @@ html{
 }
 
 body{  
-font-family: 'Inter', sans-serif;   
+
+    min-height: 100vh;
+font-family: 'Inter', sans-serif; 
+font-family: 'Forum', normal;  
+
+margin: 0; padding: 0;
+
+display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 
 .wrapper{
@@ -22,7 +32,8 @@ margin: auto;
 
 hr{
     width: 50px;
-height: 1px;
+    height: 1px;
+    color: #0C0C0E;
 }
 
 h1, h2, h3{
@@ -481,8 +492,10 @@ width: 199px;
 
 .coffe-shop__line{
     width: 100px;
-    height: 2px;
+    height: 1px;
     background: #BB945F;
+    margin: 0px;
+   
 
    
     
@@ -695,8 +708,13 @@ footer
    }
 .footer-adress__link{
 
-
+    color: #FFF;
 text-decoration: none;
+}
+
+.footer-adress__link:hover{
+    color:#BB945F;
+    text-decoration:underline;
 }
 
 .footer-socian{
@@ -704,11 +722,13 @@ text-decoration: none;
     text-decoration: none;
     justify-content:flex-start;
 
+    padding-inline-start: 0px;
+
 }
 
 .footer-icon{
     list-style: none;
-    
+    justify-content:flex-start;
 cursor: pointer;
 margin-right: 15px;
 
@@ -716,16 +736,46 @@ margin-right: 15px;
 
 
 .work-schedule{
-    width: 149px;
+  
+    text-align: right;
+width: 149px;
+    color: #FFF;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
+
+.work-schedule__text{
+    margin: 0px;
+}
+
+.work-schedule__container{
+
 }
 
 .footer__line{
     width: 1400px;
 height: 1px;
 background: #FFF;
+margin: 0px;
 }
 
 .footer_about-project{
     display: flex;
     justify-content: space-between;
+    padding-top: 44px;
+    
 }
+
+.about-project__link{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.about-project__link:hover{
+    color:#BB945F;
+    text-decoration:underline;
+}
+

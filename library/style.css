@@ -426,6 +426,9 @@ margin: 0px;
 .about-book-text{
     margin: 0px;
     padding: 0px;
+
+    width: 355px;
+    height: 320px;
 }
 
 .book-button{
@@ -442,7 +445,7 @@ margin: 0px;
     height: 300px;
 
     position: relative;
-    top: 255px;
+    top: 239px;
     left: 40px;
     
 }

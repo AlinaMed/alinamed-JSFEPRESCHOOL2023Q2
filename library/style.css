@@ -316,6 +316,8 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 cursor: pointer;
+
+
 }
 
 
@@ -333,11 +335,17 @@ cursor: pointer;
 
 .radio-button{
 
-    display: flex;
-    margin-bottom: 40px;
+    width: 700px;
+    height: 24px;
+    flex-shrink: 0;
 
-    
- 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;  
+}
+
+.radio-eleement{
+    margin-right: 20px;
 }
 
 

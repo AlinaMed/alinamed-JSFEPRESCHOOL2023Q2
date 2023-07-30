@@ -20,7 +20,7 @@ display: flex;
 }
 
 .wrapper{
-width: 1440px;
+/* width: 1440px;*/
 margin: auto;
 }
 
@@ -34,6 +34,7 @@ hr{
     width: 50px;
     height: 1px;
     color: #0C0C0E;
+    
 }
 
 h1, h2, h3{
@@ -45,7 +46,7 @@ h1{
     font-style:normal;
     letter-spacing: 0.6px;
     color: #FFF; 
-    
+    font-weight: 400px;
     cursor: pointer;
 }
 h1:hover{
@@ -236,6 +237,27 @@ padding: 20px 20px;
     position: relative;
     top: 220px;
 
+    width: 520px;
+flex-shrink: 0;
+
+}
+
+.welcom-heading{
+    color: #FFF;
+text-align: center;
+font-family: Forum;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 125% */
+letter-spacing: 3px;
+text-transform: uppercase;
+
+margin: 0px;
+}
+
+.welcom-description{
+    margin: 0px;
 }
 
 
@@ -478,7 +500,7 @@ margin: 0px;
 }
 
 .coffe-shop__product{
-    width: 438;
+    width: 482px;
   display: flex;
 
   
@@ -498,7 +520,7 @@ letter-spacing: 2px;
 text-transform: capitalize;
  margin-right: 40px;
 
-width: 199px;
+width: 215px;
 }
 
 .coffe-shop__line{

@@ -277,9 +277,11 @@ margin: 0px;
 
 .slider__imeg{
    
-
+margin-right: 20px;
+margin-left: 5px;
 width: 450px;
 height: 560px;
+
 
 }
 

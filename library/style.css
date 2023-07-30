@@ -489,7 +489,6 @@ margin: 0px;
 }
 
 .coffe-shop__description{
-    
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -497,22 +496,22 @@ margin: 0px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 200% */
-    letter-spacing: 2px;
-   
+    letter-spacing: 2px;  
 }
 
 .coffe-shop__product{
-    width: 482px;
-  display: flex;
-
-  
-  justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.coffe-shop__desserts-card{
+    text-align: end;
+}
+
 .product__name{
-    color: #000;
+color: #000;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
@@ -520,7 +519,7 @@ font-weight: 400;
 line-height: 40px; /* 200% */
 letter-spacing: 2px;
 text-transform: capitalize;
- margin-right: 40px;
+margin-right: 40px;
 
 width: 215px;
 }
@@ -529,11 +528,7 @@ width: 215px;
     width: 100px;
     height: 1px;
     background: #BB945F;
-    margin: 0px;
-   
-
-   
-    
+    margin: 0px;   
 }
 
 .product__price{

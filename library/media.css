@@ -1,0 +1,39 @@
+@media screen and (max-width: 1440px) {
+    .welcom-block{
+        width: 760px;
+        height: 600px;
+       
+    }
+   
+    .wrapper__navigation{
+           display: flex;
+              
+    }
+    .main-container{
+        width: 760px;
+        
+    }
+    .wrapper__navigation{
+        width: 760px;
+    }
+    .navigation-link{
+        display: none;
+    }
+    .navigation_display-none{
+        display: block;
+   }
+
+   .favorites{
+    width: 768px;
+   }
+
+   .slider__imeg__hide{
+    display: none;
+   }
+
+   .layout-2-column{
+    display: block;
+    justify-content: center;
+
+}
+}

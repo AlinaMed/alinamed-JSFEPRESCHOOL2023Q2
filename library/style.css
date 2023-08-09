@@ -5,6 +5,12 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
 body{  
 
     min-height: 100vh;
@@ -320,7 +326,10 @@ height: 560px;
     
         display: flex;
     }
-
+   
+    .navigation_display-none{
+        display: none;
+   }
 
 
 .favorites__text{

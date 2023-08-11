@@ -5,6 +5,12 @@ html{
     scroll-behavior: smooth;
 }
 
+
+
+
+
+
+
 body{  
 
     min-height: 100vh;
@@ -210,6 +216,12 @@ padding: 20px 20px;
     margin-top: 31px;
 }
 
+.hamburger{
+    background-image: url('icon/burger.svg');
+    display: none;
+width: 45px;
+height: 20px;
+}
 
 
 .welcom-block{
@@ -320,7 +332,10 @@ height: 560px;
     
         display: flex;
     }
-
+   
+    .navigation_display-none{
+        display: none;
+   }
 
 
 .favorites__text{
@@ -786,7 +801,7 @@ line-height: 20px;
 }
 
 .footer__line{
-    width: 1400px;
+width: 1400px;
 height: 1px;
 background: #FFF;
 margin: 0px;

@@ -2,14 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
     <title>library</title>
     <link rel="shortcut icon" href="icon/favicon_io/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -17,19 +24,19 @@
     <header class="main-container">
         <div class="wrapper header__wrapper">
         <h1>Brooklyn Public Library</h1>
-        <div class="wrapper__navigation">
-        <nav class="header_navigation">  
-            <ul class="navigation">
-                <li><a class="navigation-link" href="#about">About</a></li>
-                <li><a class="navigation-link" href="#favorites">Favorites</a></li>
-                <li><a class="navigation-link" href="#coffee_shop">Coffee shop</a></li>
-                <li><a class="navigation-link" href="#contacts">Contacts</a></li>
-                <li><a class="navigation-link" href="#library_card">Library Card</a></li>
-                
-            </ul>
-        </nav>
-            <a href=""><span class="icon_profile"></span></a>
-        </div>
+            <div class="wrapper__navigation">
+                <nav class="header_navigation">  
+                    <ul class="navigation">
+                        <li><a class="navigation-link" href="#about">About</a></li>
+                        <li><a class="navigation-link" href="#favorites">Favorites</a></li>
+                        <li><a class="navigation-link" href="#coffee_shop">Coffee shop</a></li>
+                        <li><a class="navigation-link" href="#contacts">Contacts</a></li>
+                        <li><a class="navigation-link" href="#library_card">Library Card</a></li>        
+                    </ul>
+                </nav>
+                <a href=""><span class="icon_profile"></span></a>
+                <span class="hamburger"></span>
+            </div>
         </div>
     </header>
 
@@ -52,14 +59,16 @@
                 <div class="slider">
                     <div class="slider__imeges">
                         <img class="slider__imeg" src="img/slider/slide3.jpg" alt="slide">
-                        <img class="slider__imeg" src="img/slider/slide1.jpg" alt="slide">
-                        <img class="slider__imeg" src="img/slider/slide2.jpg" alt="slide">
+                        <img class="slider__imeg slider__imeg__hide" src="img/slider/slide1.jpg" alt="slide">
+                        <img class="slider__imeg slider__imeg__hide" src="img/slider/slide2.jpg" alt="slide">
                     </div>
                 </div>
                 <div class="slider__navigation">
                     <div class="slider__navigation_container"> <div class="navigation__active"></div></div>
                     <div class="slider__navigation_container"><div class="navigation__active"></div></div>
                     <div class="slider__navigation_container"><div class="navigation__active"></div></div>
+                    <div class="slider__navigation_container"><div class="navigation__active navigation_display-none"></div></div>
+                    <div class="slider__navigation_container"><div class="navigation__active navigation_display-none"></div></div>
                 </div> 
             </section>
 
@@ -69,10 +78,10 @@
                     <hr>
                     <p class="favorites__text">Pick favorites of season</p>
                     <div class="radio-button">
-                        <p class="season__choise"><input name="season" type="radio" value="active" class="radio-eleement">Winter</p>
-                        <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement">Spring</p>
-                        <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement">Summer</p>
-                        <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement">Autumn</p>            
+                        <p class="season__choise"><input name="season" type="radio" value="active" class="radio-eleement"><label for="check3">Winter</label></p>
+                        <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement"><label for="check3">Spring</label></p>
+                        <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement"><label for="check3">Summer</label></p>
+                        <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement"><label for="check3">Autumn</label></p>            
                     </div>
                     <div class="layout-2-column"> 
                         <div class="books-card">
@@ -170,32 +179,32 @@
                         </div>
                         <div class="coffe-shop__desserts-card">
                         <h3 class="coffe-shop__desserts-card">Desserts & Cakes </h3>
-                            <div class="coffe-shop__product">
+                            <div class="coffe-shop__product desserts">
                                 <p class="product__name">Forest Gateau</p>
                                 <hr class="coffe-shop__line">
                                 <p class="product__price">$3</p>
                             </div>
-                            <div class="coffe-shop__product">
+                            <div class="coffe-shop__product desserts">
                                 <p class="product__name">Blue Moon</p>
                                 <hr class="coffe-shop__line">
                                 <p class="product__price">$3</p>
                             </div>
-                            <div class="coffe-shop__product">
+                            <div class="coffe-shop__product desserts">
                                 <p class="product__name">Truffle Cake</p>
                                 <hr class="coffe-shop__line">
                                 <p class="product__price">$3</p>
                             </div>
-                            <div class="coffe-shop__product">
+                            <div class="coffe-shop__product desserts">
                                 <p class="product__name">Chocolate Cake</p>
                                 <hr class="coffe-shop__line">
                                 <p class="product__price">$3</p>
                             </div>
-                            <div class="coffe-shop__product">
+                            <div class="coffe-shop__product desserts">
                                 <p class="product__name">Poet’s Dream Cake</p>
                                 <hr class="coffe-shop__line">
                                 <p class="product__price">$3</p>
                             </div>
-                            <div class="coffe-shop__product">
+                            <div class="coffe-shop__product desserts">
                                 <p class="product__name">Pineapple Cake</p>
                                 <hr class="coffe-shop__line">
                                 <p class="product__price">$3</p>
@@ -258,9 +267,9 @@
                 <div class="footer-contact">
                     <p class="footer-adress"><a class="footer-adress__link" href="https://goo.gl/maps/nabuGvnqzpv8NeqN6">286 Cadman Plaza, New York, NY 11238, United States</a></p>
                         <ul class="footer-socian">
-                            <li class="footer-icon"><img src="icon/twitter.svg" alt="twitter"></li>
-                            <li class="footer-icon"><img src="icon/instagram.svg" alt="instagram"> </li>
-                            <li class="footer-icon"><img src="icon/facebook.svg" alt="facebook"> </li>
+                            <li class="footer-icon"><a class="about-project__link" href="https://twitter.com/"><img src="icon/twitter.svg" alt="twitter"></a></li>
+                            <li class="footer-icon"><a class="about-project__link" href="https://www.instagram.com/"><img src="icon/instagram.svg" alt="instagram"></a> </li>
+                            <li class="footer-icon"><a class="about-project__link" href="https://www.facebook.com/"><img src="icon/facebook.svg" alt="facebook"></a></li>
                         </ul>  
                 </div>
                 <div class="work-schedule">

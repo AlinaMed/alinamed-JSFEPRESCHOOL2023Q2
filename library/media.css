@@ -32,19 +32,35 @@
    }
 
 
-   .hamburger{
-    background-image: url('icon/burger.svg');
-    background-repeat: no-repeat; 
-    background-size: cover;
+
+   .hamburger__menu{
     display: inline-block;
     margin-top: 35px;
     margin-left: 40px;
     
-width: 45px;
+    width: 45px;
     height: 20px;
 
-    }
+    background: none;
+   
+    border: none;
+     background-image: url('icon/burger.svg');
+     background-repeat: no-repeat; 
+    background-size: cover;  
 
+   }
+
+   .burger_menu_close{
+    width: 32px;
+    height: 32px;
+
+    background: none;
+    border: none;
+
+    background-image: url('icon/burgerclose.svg');
+    background-repeat: no-repeat; 
+    background-size: cover;  
+   }
   
 
 

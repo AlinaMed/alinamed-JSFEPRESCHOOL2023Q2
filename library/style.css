@@ -4,8 +4,13 @@
 html{
     scroll-behavior: smooth;
 }
+.carret_left{
+    display: none;
+}
 
-
+.carret_right{
+    display: none;
+}
 
 
 
@@ -31,6 +36,20 @@ margin: auto;
 }
 
 .layout-2-column{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.season-books{
+    width: 1350px;
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.footer__layout-2-column{
     display: flex;
     justify-content:space-between;
 }
@@ -206,6 +225,23 @@ padding: 20px 20px;
     
 }
 
+.open_burger_menu{
+display: flex;
+z-index: 100;
+    width: 332px;
+    height: 570px;
+    position: absolute;
+
+    top:0;
+    right: 0;
+
+    background: #000;
+}
+
+.hidden{
+visibility: hidden;
+}
+
 
 .icon_profile{
     background-image: url('icon/icon_profile.svg');
@@ -216,7 +252,10 @@ padding: 20px 20px;
     margin-top: 31px;
 }
 
-.hamburger{
+
+
+
+.hamburger__menu{
     background-image: url('icon/burger.svg');
     display: none;
 width: 45px;
@@ -229,6 +268,7 @@ height: 20px;
     height: 600px;
     background-image: url('img/welcombackcover.jpg');
     background-size: cover;
+    
     position: relative;
     color: #FFF;
    
@@ -338,6 +378,12 @@ height: 560px;
    }
 
 
+
+   .favorites__books{
+    padding: 20px;
+   }
+
+
 .favorites__text{
     color: #000;
 font-family: Inter;
@@ -385,6 +431,10 @@ cursor: pointer;
 
 .radio-eleement{
     margin-right: 20px;
+}
+
+.season___books{
+
 }
 
 
@@ -811,6 +861,10 @@ margin: 0px;
     display: flex;
     justify-content: space-between;
     padding-top: 44px;
+    font-family: Inter;
+    font-size: 20px;
+
+
     
 }
 

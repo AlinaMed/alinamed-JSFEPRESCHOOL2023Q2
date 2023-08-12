@@ -57,11 +57,14 @@
                 <hr>
                 <p class="section__description">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside </p>
                 <div class="slider">
+                   
                     <div class="slider__imeges">
+                        <div class="carret_left"></div>  
                         <img class="slider__imeg" src="img/slider/slide3.jpg" alt="slide">
                         <img class="slider__imeg slider__imeg__hide" src="img/slider/slide1.jpg" alt="slide">
                         <img class="slider__imeg slider__imeg__hide" src="img/slider/slide2.jpg" alt="slide">
                     </div>
+                    <span class="carret_right"></span>  
                 </div>
                 <div class="slider__navigation">
                     <div class="slider__navigation_container"> <div class="navigation__active"></div></div>
@@ -73,7 +76,7 @@
             </section>
 
             <section id="favorites">
-                <div class="wrapper">
+                <div class="wrapper favorites__books">
                     <h2>Favorites</h2>
                     <hr>
                     <p class="favorites__text">Pick favorites of season</p>
@@ -83,7 +86,7 @@
                         <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement"><label for="check3">Summer</label></p>
                         <p class="season"><input name="season" type="radio" value="deactive" class="radio-eleement"><label for="check3">Autumn</label></p>            
                     </div>
-                    <div class="layout-2-column"> 
+                    <div class="layout-2-column season-books"> 
                         <div class="books-card">
                             <div class="books-card__description">
                                 <p class="book-card__heading">Staff Picks</p>
@@ -110,7 +113,7 @@
                             <img class="books-card__imeg" src="img/bookscover/f36dd3f474e8bec0fe1d8faf30fd4d2d.jpg" alt="book">
                         </div>    
                     </div>
-                    <div class="layout-2-column"> 
+                    <div class="layout-2-column season-books"> 
                         <div class="books-card">
                             <div class="books-card__description">
                                 <p class="book-card__heading">Staff Picks</p>
@@ -263,7 +266,7 @@
 
     <footer class="footer">
         <div class="footer_sites-info">
-            <div class="layout-2-column">
+            <div class="footer__layout-2-column">
                 <div class="footer-contact">
                     <p class="footer-adress"><a class="footer-adress__link" href="https://goo.gl/maps/nabuGvnqzpv8NeqN6">286 Cadman Plaza, New York, NY 11238, United States</a></p>
                         <ul class="footer-socian">
@@ -291,6 +294,7 @@
             <p><a class="about-project__link" href="https://github.com/AlinaMed">Alina</a></p>
         </div> 
     </footer>
-
+    
+    <script src="js/library.js"></script>
 </body>
 </html>

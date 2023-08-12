@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
     .welcom-block{
-        width: 100%;
+        width: 768px;
         height: 600px;
        
        
@@ -8,7 +8,7 @@
    
     .wrapper{
         /* width: 1440px;*/
-        margin: 0px;
+       
         }
 
     .wrapper__navigation{
@@ -16,11 +16,13 @@
               
     }
     .main-container{
-        width: 760px;
+        width: 768px;
+        
         
     }
     .wrapper__navigation{
-        width: 760px;
+        
+        justify-content: end;
     }
     .navigation-link{
         display: none;
@@ -29,17 +31,21 @@
         display: block;
    }
 
+
    .hamburger{
     background-image: url('icon/burger.svg');
+    background-repeat: no-repeat; 
+    background-size: cover;
     display: inline-block;
+    margin-top: 35px;
     margin-left: 40px;
-    margin-top: 31px;
+    
 width: 45px;
     height: 20px;
 
     }
-    
 
+  
 
 
 
@@ -47,6 +53,22 @@ width: 45px;
    .favorites{
     width: 768px;
    }
+
+  
+
+
+   .carret_left{
+    background-image: url('icon/Carret_Left.svg');
+    display: block;
+ 
+   }
+    
+
+.carret_right{
+    display: none;
+}
+
+
 
    .slider__imeg__hide{
     display: none;
@@ -57,7 +79,12 @@ width: 45px;
     justify-content: center;
 
 }
-
+.season-books{
+    width: 768px;
+    display: grid;
+    justify-content:center;
+    
+}
 
 
 .digital-library-cards_content{
@@ -69,6 +96,8 @@ width: 45px;
  .library-cards_content-text{
     width: 100%;
  }
+
+
 
  .coffe-shop__drinks-card{
     align-items:first baseline;
@@ -87,13 +116,33 @@ width: 45px;
     justify-content:end; 
  
 }
+
+
+.library-container{
+    display: grid;
+    justify-content:center;
+
+
+}
+
 footer
 {
-    width: 100%;
+    width: 768px;
     color: rgba(255, 255, 255, 1);
     background-color:rgba(12, 12, 14, 1);
     margin: auto;
     padding: 20px;
+}
+
+.footer__layout-2-column{
+    display: flex;
+    justify-content:space-between;
+
+    width: 728px;
+}
+
+.footer_sites-info{
+    width: 768px;
 }
 
 .footer__line{

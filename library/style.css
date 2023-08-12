@@ -4,8 +4,13 @@
 html{
     scroll-behavior: smooth;
 }
+.carret_left{
+    display: none;
+}
 
-
+.carret_right{
+    display: none;
+}
 
 
 
@@ -31,6 +36,20 @@ margin: auto;
 }
 
 .layout-2-column{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.season-books{
+    width: 1350px;
+    display: flex;
+    justify-content:space-between;
+
+
+}
+
+.footer__layout-2-column{
     display: flex;
     justify-content:space-between;
 }
@@ -229,6 +248,7 @@ height: 20px;
     height: 600px;
     background-image: url('img/welcombackcover.jpg');
     background-size: cover;
+    
     position: relative;
     color: #FFF;
    
@@ -338,6 +358,12 @@ height: 560px;
    }
 
 
+
+   .favorites__books{
+    padding: 20px;
+   }
+
+
 .favorites__text{
     color: #000;
 font-family: Inter;
@@ -385,6 +411,10 @@ cursor: pointer;
 
 .radio-eleement{
     margin-right: 20px;
+}
+
+.season___books{
+
 }
 
 
@@ -811,6 +841,10 @@ margin: 0px;
     display: flex;
     justify-content: space-between;
     padding-top: 44px;
+    font-family: Inter;
+    font-size: 20px;
+
+
     
 }
 

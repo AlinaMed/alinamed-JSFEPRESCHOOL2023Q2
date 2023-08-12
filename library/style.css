@@ -225,18 +225,7 @@ padding: 20px 20px;
     
 }
 
-.open_burger_menu{
-display: flex;
-z-index: 100;
-    width: 332px;
-    height: 570px;
-    position: absolute;
 
-    top:0;
-    right: 0;
-
-    background: #000;
-}
 
 .hidden{
 visibility: hidden;

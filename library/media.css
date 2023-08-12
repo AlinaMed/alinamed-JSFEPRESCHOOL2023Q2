@@ -57,11 +57,67 @@
     background: none;
     border: none;
 
+    margin-top: 31px;
+    margin-left: 40px;
+    margin-right: 20px;
+
     background-image: url('icon/burgerclose.svg');
     background-repeat: no-repeat; 
     background-size: cover;  
    }
   
+
+   .burger_menu_header{
+    width: 332px;
+    height: 90px;
+    display: flex;
+    justify-content: end;
+   }
+
+   .open_burger_menu{
+    
+        z-index: 100;
+        width: 332px;
+        height: 570px;
+        position: absolute;
+    
+        /*top:0;*/
+        /*right: 0;*/
+    
+        background: #000;
+    }
+
+    .burger_menu_navigation{
+      
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 50px; /* 250% */
+   list-style: none;
+ text-align: center;
+    }
+
+    .burger_menu_navigaton_link
+    {
+        padding-bottom: 30px;
+     
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px; /* 250% */
+    }
+
+    .burger_menu_link{
+        text-decoration: none;
+        color: #FFF;
+        font-family: Inter;
+       
+    }
+
+    
 
 
 

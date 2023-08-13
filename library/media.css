@@ -126,20 +126,42 @@ line-height: 50px; /* 250% */
     width: 768px;
    }
 
-  
+   .slider__imeg {
+    margin-right: 58px;
+    margin-left: 58px;
+    
+}
+
+
+
+.slider-button-container{
+    height: 560px;
+    display: flex;
+
+    align-items: center;
+   }
 
 
    .carret_left{
+    background: none;
+    border: none;
     background-image: url('icon/Carret_Left.svg');
-    display: block;
- 
+    display: flex;
+    width: 24px;
+    height: 24px;
    }
     
 
 .carret_right{
-    display: none;
-}
+    background: none;
+    border: none;
+    display: flex;
+    
+    background-image: url('icon/Carret_Right.svg');
+    width: 24px;
+    height: 24px;
 
+}
 
 
    .slider__imeg__hide{
@@ -196,6 +218,8 @@ line-height: 50px; /* 250% */
 
 
 }
+
+
 
 footer
 {
